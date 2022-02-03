@@ -64,10 +64,10 @@ function setup(){
   trex.debug = false
 
   
-  solo = createSprite(500,470,200,15);
+  solo = createSprite(500,370,200,15);
   solo.x = solo.width/2
   solo.addImage("solo",soloImagem);
-  soloInv = createSprite(width/2,height/2+10,width,15);
+  soloInv = createSprite(width/2,height/2,width,15);
   soloInv.visible = false;
   solo.scale = 1.53
   overgame = createSprite(width/2,height/2 -150)
