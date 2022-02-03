@@ -47,7 +47,7 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(windowWidth-900,windowHeight)
+  createCanvas(windowWidth,windowHeight)
   gpCac = new Group()
   gpNuv = new Group()
   gpPas = new Group()
