@@ -64,7 +64,7 @@ function setup(){
   trex.debug = false
 
   
-  solo = createSprite(500,270,200,15);
+  solo = createSprite(width/2,height/2-30,200,15);
   solo.x = solo.width/2
   solo.addImage("solo",soloImagem);
   soloInv = createSprite(width/2,height/2,width,15);
